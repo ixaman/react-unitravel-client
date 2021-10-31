@@ -1,0 +1,115 @@
+[
+  {
+    "place": "Sajek",
+    "country": "Bangladesh",
+    "season": "Rainy",
+    "duaration": 3,
+    "cost": 10000,
+    "img": "https://www.theindependentbd.com/assets/news_images/Winter-Vacation.jpg"
+  },
+
+  {
+    "place": "Bandarban",
+    "country": "Bangladesh",
+    "season": "Autumn",
+    "duaration": 5,
+    "cost": 12000,
+    "img": "https://poribeshtv.com/uploads/shares/Bandarban_1-2019-10-02-20-50-06.jpg"
+  },
+  {
+    "place": "Cox's Bazar",
+    "country": "Bangladesh",
+    "season": "Winter",
+    "duaration": 3,
+    "cost": 30000,
+    "img": "https://i.pinimg.com/originals/16/a0/2e/16a02ebbdccb53581a96d5aef801e48b.jpg"
+  },
+  {
+    "place": "St. Martin's Island",
+    "country": "Bangladesh",
+    "season": "Winter",
+    "duaration": 3,
+    "cost": 14000,
+    "img": "https://everestholidays.com.bd/wp-content/uploads/2019/10/Saint-martin.jpg"
+  },
+  {
+    "place": "Sreemangal ",
+    "country": "Bangladesh",
+    "season": "Rainy",
+    "duaration": 3,
+    "cost": 20000,
+    "img": "https://www.grandsultanresort.com/images/home-slides/home-banner1.jpg"
+  },
+  {
+    "place": "Jaflong",
+    "country": "Bangladesh",
+    "season": "Winter",
+    "duaration": 3,
+    "cost": 10000,
+    "img": "https://www.mrrajdhanitravels.com/public/uploads/package/1610559824-Bisnakandi%20Sylhet%20Bangladesh.jpg"
+  },
+  {
+    "place": "Kashmir",
+    "country": "India",
+    "season": "Any",
+    "duaration": 5,
+    "cost": 50000,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/7/70/Neeulm_Valley_AJK_%28Arang_Kel%29.jpg"
+  },
+  {
+    "place": "Ladakh",
+    "country": "India",
+    "season": "Winter",
+    "duaration": 4,
+    "cost": 40000,
+    "img": " https://www.thrillophilia.com/blog/wp-content/uploads/2017/05/how-to-reach-ladakh-1.jpg"
+  },
+  {
+    "place": "Agra",
+    "country": "India",
+    "season": "Any",
+    "duaration": 3,
+    "cost": 30000,
+    "img": "https://static.toiimg.com/photo/77995849.cms"
+  },
+  {
+    "place": "Darjeeling",
+    "country": "India",
+    "season": "Any",
+    "duaration": 3,
+    "cost": 25000,
+    "img": "https://i2.wp.com/www.eastmojo.com/wp-content/uploads/2021/07/darjeeling.jpg?fit=1200%2C675&ssl=1"
+  },
+  {
+    "place": "Maldives",
+    "country": "Maldives",
+    "season": "Summer",
+    "duaration": 4,
+    "cost": 100000,
+    "img": "https://images.indianexpress.com/2021/01/Pixabay_Maldives-resorts_1200.jpg"
+  },
+  {
+    "place": "Kathmandu ",
+    "country": "Nepal",
+    "season": "Any",
+    "duaration": 3,
+    "cost": 30000,
+    "img": "https://cdn.britannica.com/05/58605-050-86F58113/Annapurna-massif-village-Nepal.jpg"
+  },
+  {
+    "place": "Interlaken",
+    "country": "Switzerland",
+    "season": "Any",
+    "duaration": 4,
+    "cost": 500000,
+    "img": "https://www.nolato.com/-/media/Images/Career/Switzerland/Switzerland.png?h=810&w=1650&hash=BF0D45F7DF677E5A785236B388E02898"
+  },
+  {
+    "place": "Istanbul",
+    "country": "Turkey",
+    "season": "Any",
+    "duaration": 3,
+    "cost": 200000,
+    "img": "https://www.swedishnomad.com/wp-content/images/2018/09/places-to-visit-in-turkey.jpg"
+  }
+]

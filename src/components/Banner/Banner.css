@@ -1,0 +1,24 @@
+.banner {
+  background-image: url("https://i.ibb.co/Zcv14GB/tourist-from-mountain-top-sun-rays-man-wear-big-backpack-against-sun-light.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  height: 780px;
+  width: 100%;
+  /* border: 1px solid red; */
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.title {
+  color: rgb(15, 199, 255);
+  font-weight: bold;
+  font-size: 55px;
+}
+.about-btn {
+  background-color: goldenrod;
+  outline: none;
+  border: none;
+  padding: 10px 29px;
+  color: black;
+  border-radius: 10px;
+}

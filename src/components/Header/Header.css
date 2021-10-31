@@ -1,0 +1,33 @@
+.items {
+  list-style: none;
+  margin-right: 30px;
+  font-size: 17px;
+  font-weight: 500;
+  color: black;
+  cursor: pointer;
+  padding: 5px;
+  text-decoration: none;
+}
+.items:hover {
+  color: rgb(11, 94, 215);
+}
+.logo-text {
+  cursor: pointer;
+  color: rgb(15, 199, 255);
+  padding-top: 10px;
+}
+.logo-text a {
+  text-decoration: none;
+}
+.MenuBar-container {
+  background-color: whitesmoke;
+}
+.logo {
+  padding-top: 10px;
+  color: black;
+  font-weight: 900;
+  font-size: 35px;
+}
+.logo-part {
+  color: rgba(209, 17, 17, 0.938);
+}
