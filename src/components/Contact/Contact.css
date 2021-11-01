@@ -1,0 +1,27 @@
+.contact-info {
+  background-color: skyblue;
+  padding: 150px;
+}
+.contact-form {
+  padding: 40px;
+  background: skyblue;
+}
+.contact-form h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.contact-form .input-box {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+.contact-form .input-box input,
+textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+}

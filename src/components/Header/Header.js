@@ -27,24 +27,6 @@ const Header = () => {
                  >
                   <li>Home</li>
                 </NavLink>
-                <NavLink to="/about" 
-                className="items"
-                activeStyle={{
-                  fontWeight: "600",
-                  color: "blue"
-                }}
-                >
-                  <li>About</li>
-                </NavLink>
-                <NavLink to="/contact" 
-                className="items"
-                activeStyle={{
-                  fontWeight: "600",
-                  color: "blue"
-                }}
-                >
-                  <li>Contact</li>
-                </NavLink>
                 <NavLink to="/myorder" 
                 className="items"
                 activeStyle={{
@@ -72,6 +54,24 @@ const Header = () => {
                 >
                   <li>Add Packages</li>
                 </NavLink>
+                <NavLink to="/about" 
+                className="items"
+                activeStyle={{
+                  fontWeight: "600",
+                  color: "blue"
+                }}
+                >
+                  <li>About</li>
+                </NavLink>
+                <NavLink to="/contact" 
+                className="items"
+                activeStyle={{
+                  fontWeight: "600",
+                  color: "blue"
+                }}
+                >
+                  <li>Contact</li>
+                </NavLink>
                 { user.email && <span className="pb-3" style={{color: "black"}}>Hello, {user.displayName}</span>}
                 <NavLink to="/login" 
                 className="items"
@@ -80,7 +80,7 @@ const Header = () => {
                   color: "blue"
                 }}
                 >                  
-                  { user.email? <Link to="/home"><button onClick={logout} className="btn btn-primary mt-3">Sign out</button></Link>
+                  { user.email? <Link to="/home"><button  onClick={logout} className="btn btn-primary mt-3"> Sign out</button></Link>
                   : <button className="btn btn-primary mt-3">Sign In</button>}
                 </NavLink>
               </ul>
