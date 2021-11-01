@@ -10,7 +10,7 @@ Bellow stacks are used to build this project
 
 ### `REACT HOOK FORM` `REACT ROUTER`
 
-### Functionality
+## Functionality
 
 ### `Home`
 
@@ -32,10 +32,18 @@ Approve order can not be deleted by normal users. only admin can delete it.
 
 ### `Contact`
 
-### Deployment
+## Deployment
 
 For deployment following tech stacks are used:
 
 ### `Firebase` for client site.
 
 ### `Heroku` for server site.
+
+## Authentication
+
+### `Firebase Authentication`
+
+## Responsiveness
+
+Not full responsive
