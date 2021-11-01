@@ -17,7 +17,7 @@ const Booking = () => {
         data.status = "Pending";
         data.order = orderedProduct;
 
-        fetch('http://localhost:5000/order', {
+        fetch('https://damp-cove-24866.herokuapp.com/order', {
             method: "POST",
             headers: {
                 "content-type": "application/json"
@@ -35,7 +35,7 @@ const Booking = () => {
 
 
 
-    const url = `http://localhost:5000/packages/${p_id}`
+    const url = `https://damp-cove-24866.herokuapp.com/packages/${p_id}`
 
     useEffect( ()=> {
         fetch(url)

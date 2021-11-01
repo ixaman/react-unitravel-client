@@ -9,7 +9,7 @@ const Home = () => {
     const [packages, setPackages] = useState([]);
 
     useEffect( ()=>{
-        fetch('http://localhost:5000/packages')
+        fetch('https://damp-cove-24866.herokuapp.com/packages')
         .then(res=>res.json())
         .then(data => setPackages(data));
     },[])

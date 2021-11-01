@@ -10,7 +10,7 @@ const AddPackages = () => {
     
     const onSubmit = data => {
         console.log(data)
-        axios.post('http://localhost:5000/packages', data)
+        axios.post('https://damp-cove-24866.herokuapp.com/packages', data)
         .then(res => {
             if(res.data.insertedId){
                 alert('Package added successfully !');
