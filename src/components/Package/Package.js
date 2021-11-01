@@ -12,7 +12,7 @@ const Package = (props) => {
             <div className="my-3">
                 <h4>Destination: {place}</h4>
                 <h4>Country: {country}</h4>
-                <h5>Duaration: <strong>{duaration}days</strong></h5>
+                <h5>Duaration: <strong>{duaration} days</strong></h5>
                 <h5>Price: <strong>BDT {cost}</strong></h5>
                 <Link to={`/booking/${_id}`}><button className="btn btn-warning mt-3">Book Now</button></Link>
             </div>

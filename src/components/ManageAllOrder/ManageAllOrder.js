@@ -70,7 +70,8 @@ const ManageAllOrder = () => {
                         <div className="col col-lg-4 pt-5 mt-2 btn-cl">
                             <h5>Status: <strong>{order.status}</strong></h5><br />
                             <button onClick={ ()=>handleDeleteOrder(order._id)} className="btn btn-danger">Delete Order</button>
-                            <button onClick={ ()=>handleUpdateStatus(order._id)} className="btn btn-success">Approve Order</button>
+                            { order.status !== "Approved" ? 
+                                <button onClick={ ()=>handleUpdateStatus(order._id)} className="btn btn-success">Approve Order</button> : ''}
                         </div>
                     </div>
 

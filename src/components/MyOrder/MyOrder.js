@@ -42,7 +42,8 @@ const MyOrder = () => {
                             <p>Name: {order.name}</p> 
                             <p>Email: {order.email} </p>
                             <p>Shipping Address: {order.address}</p><br />
-                            <button onClick={ ()=>handleDeleteOrder(order._id)} className="btn btn-danger">Delete Order</button>
+                            { order.status !== "Approved" ?
+                                <button onClick={ ()=>handleDeleteOrder(order._id)} className="btn btn-danger">Delete Order</button> : <button className="btn btn-danger" disabled>Delete Order</button> }
                         </div>
                         <div className="col col-lg-4"> 
                             <div  className="img-container mt-3">
