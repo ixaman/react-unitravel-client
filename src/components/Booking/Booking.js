@@ -11,7 +11,9 @@ const Booking = () => {
     const [pakage, setPakage] = useState([]);
     const {place,country,season,duaration,cost,img} = pakage;
     const {user} = useAuth();
-    const { register, handleSubmit } = useForm();
+    
+    const { register, handleSubmit, reset } = useForm();
+    
     const onSubmit = data => {
         const orderedProduct = pakage;
         data.status = "Pending";
@@ -28,6 +30,7 @@ const Booking = () => {
         .then(data => {
             if (data.insertedId){
                 alert("Ordered placed successfully !")
+                reset();
             }
         })
 
@@ -41,7 +44,7 @@ const Booking = () => {
         fetch(url)
         .then(res=> res.json())
         .then(data => setPakage(data));
-    },[])
+    },[url])
 
     return (
         <div>
