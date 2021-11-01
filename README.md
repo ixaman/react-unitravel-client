@@ -1,6 +1,8 @@
 This is a travel agency website named [UNITRAVEL](https://uni-travel-react-website.web.app/home).
 
-## TECH STACKS
+## UNITRAVEL
+
+### Tech Stacks
 
 Bellow stacks are used to build this project
 
