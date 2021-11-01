@@ -6,9 +6,9 @@ This is a travel agency website named [UNITRAVEL](https://uni-travel-react-websi
 
 Bellow stacks are used to build this project
 
-### `REACT.JS` ### `EXPRESS.JS` ### `JAVASCRIPT` ### `HTML` ### `CSS` ### `BOOTSTRAP` ### `FIREBASE` ### `HEROKU`
+### `REACT.JS` `EXPRESS.JS` `JAVASCRIPT` `HTML` `CSS` `BOOTSTRAP` `FIREBASE` `HEROKU`
 
-### `REACT HOOK FORM` ### `REACT ROUTER`
+### `REACT HOOK FORM` `REACT ROUTER`
 
 ### Functionality
 
