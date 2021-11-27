@@ -2,8 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { useParams } from 'react-router';
 import useAuth from '../../hooks/useAuth';
-import Footer from '../Footer/Footer';
-import Header from '../Header/Header';
 import './Booking.css';
 
 const Booking = () => {
@@ -48,7 +46,6 @@ const Booking = () => {
 
     return (
         <div>
-            <Header></Header>
             <h1 className="  my-5">Process Order</h1>
                 <div className="container">
                         <div className="row">
@@ -83,7 +80,6 @@ const Booking = () => {
                             </div>
                        </div>
                 </div>
-            <Footer></Footer>
         </div>
     );
 };
